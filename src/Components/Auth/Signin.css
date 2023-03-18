@@ -1,0 +1,46 @@
+.signInForm {
+    width: 100%;
+    color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    background: rgba(255, 255, 255, 0.2);
+    width: 50%;
+    border-radius: 20px;
+    padding: 4%;
+}
+
+.form input:first-child {
+    margin-top: 20px;
+}
+
+.form input {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #010101;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.form input::placeholder {
+    color: gray;
+}
+
+.form input:focus {
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid #010101;
+}
+
+@media (max-width: 700px) {
+    .form {
+        background: rgba(255, 255, 255, 0.2);
+        width: 70%;
+        border-radius: 20px;
+        padding: 4%;
+    }
+}
